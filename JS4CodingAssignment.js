@@ -188,22 +188,23 @@ function averageCompareFunction(array1, array2){
 
             avg1 += array1[i]
        
-            
-         wholeAverage1 = avg1 / array1.length
-         
+        
             }
-        return wholeAverage1
+    // edit - fix of loop vvvv
+    
+        wholeAverage1 = avg1 / array1.length
+         
 
     //loop for array2 
         for ( i = 0; i<array2.length; i++){
 
             avg2 += array2[i]
-       
-            
-         wholeAverage2 = avg2 / array2.length
          
             }
-        return wholeAverage2
+    // edit - fox of loop 2 vvvv
+    
+        wholeAverage2 = avg2 / array2.length
+
 
     //if statedment 
     if (wholeAverage1 > wholeAverage2){
